@@ -110,7 +110,11 @@ def run(churn_result: dict, marketing_result: dict, support_result: dict) -> str
     """
     Calls Claude and returns the executive brief as a string.
     """
-    client = anthropic.Anthropic()
+    import streamlit as st
+
+api_key = st.secrets.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_API_KEY")
+
+client = anthropic.Anthropic(api_key=api_key)
 
     prompt = build_prompt(churn_result, marketing_result, support_result)
 
