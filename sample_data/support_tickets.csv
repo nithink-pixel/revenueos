@@ -1,0 +1,969 @@
+ticket_id,customer_id,segment,date,priority,category,response_hours,resolved
+TKT-00001,CUST-0002,Mid-Market,2024-12-10,Medium,Bug,2.1,1
+TKT-00002,CUST-0002,Mid-Market,2024-11-07,Low,Onboarding,2.2,1
+TKT-00003,CUST-0003,Healthcare,2024-11-12,High,Technical,63.8,0
+TKT-00004,CUST-0003,Healthcare,2024-07-28,Low,Feature Request,54.7,0
+TKT-00005,CUST-0003,Healthcare,2024-09-07,Low,Feature Request,58.1,0
+TKT-00006,CUST-0003,Healthcare,2024-09-02,Medium,Technical,19.1,1
+TKT-00007,CUST-0004,Mid-Market,2024-05-23,Low,Billing,6.4,1
+TKT-00008,CUST-0004,Mid-Market,2024-10-01,Medium,Billing,4.5,1
+TKT-00009,CUST-0005,Healthcare,2024-10-01,High,Bug,2.7,1
+TKT-00010,CUST-0005,Healthcare,2024-10-14,Medium,Billing,3.9,1
+TKT-00011,CUST-0005,Healthcare,2024-09-29,Medium,Bug,2.7,1
+TKT-00012,CUST-0005,Healthcare,2024-07-09,Medium,Technical,4.9,1
+TKT-00013,CUST-0005,Healthcare,2024-05-11,Low,Onboarding,1.4,1
+TKT-00014,CUST-0005,Healthcare,2024-05-08,Low,Bug,1.2,1
+TKT-00015,CUST-0005,Healthcare,2024-11-29,Medium,Billing,3.3,1
+TKT-00016,CUST-0006,Healthcare,2024-03-02,Low,Technical,8.0,1
+TKT-00017,CUST-0006,Healthcare,2024-06-30,Medium,Bug,5.8,1
+TKT-00018,CUST-0006,Healthcare,2024-11-25,High,Feature Request,2.2,1
+TKT-00019,CUST-0006,Healthcare,2024-11-28,Low,Onboarding,1.3,1
+TKT-00020,CUST-0008,Mid-Market,2024-10-23,Low,Billing,3.7,1
+TKT-00021,CUST-0008,Mid-Market,2024-12-18,Medium,Onboarding,4.9,1
+TKT-00022,CUST-0008,Mid-Market,2024-11-11,Low,Onboarding,5.9,1
+TKT-00023,CUST-0009,Enterprise,2024-10-15,Medium,Technical,4.7,1
+TKT-00024,CUST-0010,Enterprise,2024-08-18,Low,Bug,6.1,1
+TKT-00025,CUST-0010,Enterprise,2024-08-26,Medium,Onboarding,5.8,1
+TKT-00026,CUST-0010,Enterprise,2024-11-21,Medium,Bug,3.2,1
+TKT-00027,CUST-0011,Startup,2024-12-18,Critical,Technical,3.5,1
+TKT-00028,CUST-0011,Startup,2024-12-12,Medium,Feature Request,6.1,1
+TKT-00029,CUST-0013,SMB,2024-11-30,High,Technical,7.2,1
+TKT-00030,CUST-0013,SMB,2024-12-27,Low,Billing,2.4,1
+TKT-00031,CUST-0015,SMB,2024-09-03,Medium,Technical,6.6,1
+TKT-00032,CUST-0016,Startup,2024-11-10,Medium,Bug,3.3,1
+TKT-00033,CUST-0016,Startup,2024-07-29,Low,Onboarding,2.4,1
+TKT-00034,CUST-0016,Startup,2024-08-20,High,Bug,3.2,1
+TKT-00035,CUST-0018,SMB,2024-09-18,Low,Onboarding,1.0,1
+TKT-00036,CUST-0018,SMB,2024-07-27,Low,Billing,5.0,1
+TKT-00037,CUST-0018,SMB,2024-11-30,Low,Onboarding,3.3,1
+TKT-00038,CUST-0022,Startup,2024-11-26,Critical,Technical,6.6,1
+TKT-00039,CUST-0022,Startup,2024-11-27,Low,Bug,4.2,1
+TKT-00040,CUST-0022,Startup,2024-09-13,Medium,Billing,6.7,1
+TKT-00041,CUST-0023,SMB,2024-12-31,Low,Onboarding,6.1,1
+TKT-00042,CUST-0023,SMB,2024-08-24,Low,Onboarding,5.8,1
+TKT-00043,CUST-0023,SMB,2024-09-05,Critical,Billing,3.0,1
+TKT-00044,CUST-0024,Mid-Market,2024-07-21,Critical,Technical,49.6,0
+TKT-00045,CUST-0025,Enterprise,2024-12-19,Medium,Billing,2.3,1
+TKT-00046,CUST-0026,Enterprise,2024-12-20,High,Onboarding,3.2,1
+TKT-00047,CUST-0026,Enterprise,2024-11-10,Low,Feature Request,3.9,1
+TKT-00048,CUST-0028,Mid-Market,2024-09-06,Low,Onboarding,6.8,1
+TKT-00049,CUST-0028,Mid-Market,2024-09-01,Medium,Onboarding,2.2,1
+TKT-00050,CUST-0028,Mid-Market,2024-07-17,High,Feature Request,7.4,1
+TKT-00051,CUST-0030,Enterprise,2024-10-31,Low,Bug,4.4,1
+TKT-00052,CUST-0030,Enterprise,2024-08-02,Low,Bug,7.5,1
+TKT-00053,CUST-0031,Mid-Market,2024-06-29,High,Billing,20.6,1
+TKT-00054,CUST-0031,Mid-Market,2024-10-13,Medium,Billing,20.0,1
+TKT-00055,CUST-0032,SMB,2024-11-07,Low,Billing,7.1,1
+TKT-00056,CUST-0032,SMB,2024-03-19,Low,Bug,1.3,1
+TKT-00057,CUST-0033,Enterprise,2024-03-05,Low,Billing,7.2,1
+TKT-00058,CUST-0034,Enterprise,2024-12-11,High,Billing,6.2,1
+TKT-00059,CUST-0035,Healthcare,2024-12-23,High,Technical,5.5,1
+TKT-00060,CUST-0035,Healthcare,2024-10-19,Low,Bug,3.0,1
+TKT-00061,CUST-0035,Healthcare,2024-10-18,High,Onboarding,5.7,1
+TKT-00062,CUST-0035,Healthcare,2024-09-05,Low,Bug,1.8,1
+TKT-00063,CUST-0035,Healthcare,2024-12-19,Medium,Onboarding,2.4,1
+TKT-00064,CUST-0036,Healthcare,2024-11-12,Low,Onboarding,68.6,0
+TKT-00065,CUST-0036,Healthcare,2024-10-24,Low,Onboarding,30.7,1
+TKT-00066,CUST-0036,Healthcare,2024-12-14,Low,Billing,13.7,1
+TKT-00067,CUST-0037,Mid-Market,2024-08-19,Low,Feature Request,1.6,1
+TKT-00068,CUST-0037,Mid-Market,2024-09-06,Medium,Feature Request,7.2,1
+TKT-00069,CUST-0038,Startup,2024-11-09,Low,Bug,6.7,1
+TKT-00070,CUST-0038,Startup,2024-08-30,Critical,Feature Request,6.3,1
+TKT-00071,CUST-0039,Startup,2024-09-13,Low,Feature Request,6.6,1
+TKT-00072,CUST-0040,Enterprise,2024-06-26,Medium,Feature Request,5.8,1
+TKT-00073,CUST-0040,Enterprise,2024-09-30,Low,Bug,2.6,1
+TKT-00074,CUST-0040,Enterprise,2024-08-07,Critical,Onboarding,3.7,1
+TKT-00075,CUST-0041,SMB,2024-09-12,Medium,Feature Request,1.2,1
+TKT-00076,CUST-0041,SMB,2024-05-26,Low,Technical,4.2,1
+TKT-00077,CUST-0042,Healthcare,2024-08-24,High,Technical,5.2,1
+TKT-00078,CUST-0042,Healthcare,2024-10-21,Low,Billing,6.7,1
+TKT-00079,CUST-0042,Healthcare,2024-09-04,Medium,Onboarding,1.5,1
+TKT-00080,CUST-0042,Healthcare,2024-10-27,Medium,Technical,5.1,1
+TKT-00081,CUST-0042,Healthcare,2024-11-18,Low,Feature Request,2.1,1
+TKT-00082,CUST-0042,Healthcare,2024-09-19,Low,Bug,2.5,1
+TKT-00083,CUST-0043,Healthcare,2024-10-08,High,Onboarding,38.1,1
+TKT-00084,CUST-0043,Healthcare,2024-11-06,Medium,Billing,22.4,1
+TKT-00085,CUST-0043,Healthcare,2024-12-26,Critical,Feature Request,46.5,1
+TKT-00086,CUST-0043,Healthcare,2024-07-19,Medium,Bug,39.8,1
+TKT-00087,CUST-0043,Healthcare,2024-07-14,High,Feature Request,22.6,1
+TKT-00088,CUST-0044,Enterprise,2024-08-17,Medium,Bug,5.8,1
+TKT-00089,CUST-0045,Mid-Market,2024-09-05,Low,Billing,5.5,1
+TKT-00090,CUST-0046,Startup,2024-09-13,Low,Bug,2.0,1
+TKT-00091,CUST-0046,Startup,2024-08-21,High,Feature Request,5.6,1
+TKT-00092,CUST-0047,Healthcare,2024-12-19,Low,Feature Request,5.3,1
+TKT-00093,CUST-0047,Healthcare,2024-06-30,Low,Onboarding,7.1,1
+TKT-00094,CUST-0047,Healthcare,2024-08-24,Critical,Onboarding,7.6,1
+TKT-00095,CUST-0047,Healthcare,2024-05-06,Medium,Bug,5.3,1
+TKT-00096,CUST-0047,Healthcare,2024-10-14,High,Billing,7.0,1
+TKT-00097,CUST-0047,Healthcare,2024-09-27,Critical,Billing,7.8,1
+TKT-00098,CUST-0047,Healthcare,2024-09-21,Low,Billing,3.0,1
+TKT-00099,CUST-0047,Healthcare,2024-07-20,Medium,Onboarding,5.1,1
+TKT-00100,CUST-0048,Mid-Market,2024-11-18,Low,Bug,3.7,1
+TKT-00101,CUST-0048,Mid-Market,2024-07-13,Medium,Technical,4.3,1
+TKT-00102,CUST-0050,Mid-Market,2024-10-21,Low,Feature Request,7.5,1
+TKT-00103,CUST-0050,Mid-Market,2024-03-29,Low,Technical,7.1,1
+TKT-00104,CUST-0050,Mid-Market,2024-03-19,Low,Technical,5.5,1
+TKT-00105,CUST-0051,Startup,2024-12-03,Medium,Technical,7.8,1
+TKT-00106,CUST-0052,Mid-Market,2024-05-07,Low,Feature Request,6.6,1
+TKT-00107,CUST-0053,Enterprise,2024-10-13,Medium,Feature Request,4.2,1
+TKT-00108,CUST-0055,Healthcare,2024-10-29,High,Technical,3.7,1
+TKT-00109,CUST-0055,Healthcare,2024-04-25,Medium,Feature Request,1.1,1
+TKT-00110,CUST-0055,Healthcare,2024-05-21,Medium,Bug,2.9,1
+TKT-00111,CUST-0055,Healthcare,2024-11-11,Low,Bug,7.8,1
+TKT-00112,CUST-0056,Mid-Market,2024-09-11,Medium,Feature Request,1.8,1
+TKT-00113,CUST-0057,Startup,2024-02-23,Low,Onboarding,6.1,1
+TKT-00114,CUST-0057,Startup,2024-09-08,Medium,Bug,4.7,1
+TKT-00115,CUST-0057,Startup,2024-02-28,Low,Billing,5.4,1
+TKT-00116,CUST-0059,Enterprise,2024-12-22,Medium,Onboarding,6.6,1
+TKT-00117,CUST-0059,Enterprise,2024-11-15,Low,Billing,3.4,1
+TKT-00118,CUST-0059,Enterprise,2024-09-03,Medium,Bug,7.3,1
+TKT-00119,CUST-0060,Startup,2024-12-26,Low,Onboarding,3.5,1
+TKT-00120,CUST-0060,Startup,2024-10-31,Low,Bug,5.9,1
+TKT-00121,CUST-0062,SMB,2024-12-14,Low,Onboarding,6.5,1
+TKT-00122,CUST-0063,Mid-Market,2024-02-06,Medium,Bug,5.0,1
+TKT-00123,CUST-0064,Healthcare,2024-09-14,Medium,Bug,29.5,1
+TKT-00124,CUST-0064,Healthcare,2024-09-11,Low,Bug,17.0,1
+TKT-00125,CUST-0064,Healthcare,2024-09-17,High,Technical,28.7,1
+TKT-00126,CUST-0064,Healthcare,2024-11-25,Low,Billing,63.5,0
+TKT-00127,CUST-0065,SMB,2024-09-02,Medium,Technical,7.4,1
+TKT-00128,CUST-0065,SMB,2024-11-27,Low,Technical,2.2,1
+TKT-00129,CUST-0066,SMB,2024-12-02,Low,Billing,4.7,1
+TKT-00130,CUST-0067,Healthcare,2024-08-14,Critical,Bug,7.8,1
+TKT-00131,CUST-0067,Healthcare,2024-05-09,High,Feature Request,6.3,1
+TKT-00132,CUST-0067,Healthcare,2024-09-04,Low,Technical,4.1,1
+TKT-00133,CUST-0067,Healthcare,2024-06-07,Medium,Billing,6.9,1
+TKT-00134,CUST-0067,Healthcare,2024-07-05,High,Technical,1.8,1
+TKT-00135,CUST-0068,Mid-Market,2024-09-24,Low,Bug,3.1,1
+TKT-00136,CUST-0071,SMB,2024-10-12,Low,Feature Request,5.9,1
+TKT-00137,CUST-0071,SMB,2024-10-20,Low,Billing,7.1,1
+TKT-00138,CUST-0071,SMB,2024-10-26,Critical,Onboarding,4.1,1
+TKT-00139,CUST-0072,SMB,2024-05-09,Low,Onboarding,43.9,1
+TKT-00140,CUST-0073,SMB,2024-08-25,Medium,Onboarding,5.6,1
+TKT-00141,CUST-0073,SMB,2024-07-06,Low,Onboarding,6.6,1
+TKT-00142,CUST-0074,SMB,2024-10-28,Medium,Technical,5.7,1
+TKT-00143,CUST-0075,Mid-Market,2024-11-30,Medium,Bug,6.4,1
+TKT-00144,CUST-0075,Mid-Market,2024-08-21,Medium,Onboarding,8.0,1
+TKT-00145,CUST-0075,Mid-Market,2024-10-14,Low,Billing,1.1,1
+TKT-00146,CUST-0076,SMB,2024-08-12,Medium,Feature Request,4.7,1
+TKT-00147,CUST-0076,SMB,2024-11-06,Low,Technical,3.0,1
+TKT-00148,CUST-0077,Mid-Market,2024-05-25,Low,Bug,1.6,1
+TKT-00149,CUST-0078,SMB,2024-12-01,High,Bug,2.5,1
+TKT-00150,CUST-0078,SMB,2024-11-28,Low,Billing,7.7,1
+TKT-00151,CUST-0078,SMB,2024-12-26,Medium,Bug,3.6,1
+TKT-00152,CUST-0079,Mid-Market,2024-12-18,Critical,Technical,7.3,1
+TKT-00153,CUST-0079,Mid-Market,2024-07-30,Low,Billing,5.6,1
+TKT-00154,CUST-0079,Mid-Market,2024-11-06,Medium,Feature Request,8.0,1
+TKT-00155,CUST-0081,SMB,2024-07-10,Low,Onboarding,6.5,1
+TKT-00156,CUST-0083,Enterprise,2024-04-19,Low,Billing,3.3,1
+TKT-00157,CUST-0083,Enterprise,2024-07-29,Critical,Feature Request,2.9,1
+TKT-00158,CUST-0084,Mid-Market,2024-08-01,Medium,Bug,7.5,1
+TKT-00159,CUST-0085,Healthcare,2024-07-21,Low,Technical,41.5,1
+TKT-00160,CUST-0085,Healthcare,2024-10-04,High,Billing,25.1,1
+TKT-00161,CUST-0085,Healthcare,2024-08-15,Medium,Billing,18.2,1
+TKT-00162,CUST-0085,Healthcare,2024-02-07,Medium,Feature Request,27.0,1
+TKT-00163,CUST-0085,Healthcare,2024-01-11,High,Billing,20.9,1
+TKT-00164,CUST-0085,Healthcare,2024-01-21,Medium,Onboarding,28.0,1
+TKT-00165,CUST-0086,SMB,2024-10-23,Medium,Feature Request,4.6,1
+TKT-00166,CUST-0087,Mid-Market,2024-11-13,Medium,Billing,6.9,1
+TKT-00167,CUST-0088,Enterprise,2024-11-23,Low,Feature Request,3.7,1
+TKT-00168,CUST-0088,Enterprise,2024-04-23,Medium,Onboarding,7.5,1
+TKT-00169,CUST-0088,Enterprise,2024-08-09,Medium,Billing,3.8,1
+TKT-00170,CUST-0089,Enterprise,2024-08-16,Medium,Billing,7.7,1
+TKT-00171,CUST-0089,Enterprise,2024-12-16,Medium,Technical,6.4,1
+TKT-00172,CUST-0089,Enterprise,2024-06-29,Medium,Technical,7.8,1
+TKT-00173,CUST-0092,SMB,2024-09-24,Medium,Onboarding,7.3,1
+TKT-00174,CUST-0093,SMB,2024-09-04,Low,Technical,5.4,1
+TKT-00175,CUST-0094,SMB,2024-07-01,Low,Bug,1.2,1
+TKT-00176,CUST-0095,Startup,2024-10-21,Medium,Bug,1.4,1
+TKT-00177,CUST-0096,SMB,2024-11-11,Low,Feature Request,44.0,1
+TKT-00178,CUST-0096,SMB,2024-06-04,Low,Billing,15.4,1
+TKT-00179,CUST-0097,Startup,2024-09-06,Low,Bug,6.6,1
+TKT-00180,CUST-0099,SMB,2024-11-25,Critical,Bug,64.2,0
+TKT-00181,CUST-0099,SMB,2024-09-07,Medium,Billing,26.0,1
+TKT-00182,CUST-0100,Startup,2024-06-09,Medium,Billing,4.4,1
+TKT-00183,CUST-0100,Startup,2024-09-28,Critical,Technical,5.3,1
+TKT-00184,CUST-0101,Startup,2024-08-24,Low,Onboarding,5.4,1
+TKT-00185,CUST-0101,Startup,2024-08-15,Medium,Bug,2.2,1
+TKT-00186,CUST-0102,Mid-Market,2024-05-30,High,Feature Request,1.7,1
+TKT-00187,CUST-0102,Mid-Market,2024-10-13,High,Technical,2.5,1
+TKT-00188,CUST-0103,Mid-Market,2024-08-10,Low,Feature Request,6.9,1
+TKT-00189,CUST-0103,Mid-Market,2024-07-15,Low,Bug,5.8,1
+TKT-00190,CUST-0103,Mid-Market,2024-05-28,Low,Technical,7.8,1
+TKT-00191,CUST-0104,SMB,2024-03-13,Medium,Billing,3.3,1
+TKT-00192,CUST-0108,Mid-Market,2024-09-03,Low,Onboarding,3.9,1
+TKT-00193,CUST-0109,Enterprise,2024-12-15,Low,Bug,2.7,1
+TKT-00194,CUST-0110,Startup,2024-01-29,Low,Bug,59.5,0
+TKT-00195,CUST-0112,SMB,2024-09-04,High,Feature Request,1.1,1
+TKT-00196,CUST-0112,SMB,2024-04-06,Low,Billing,2.3,1
+TKT-00197,CUST-0112,SMB,2024-12-24,High,Feature Request,3.9,1
+TKT-00198,CUST-0113,Enterprise,2024-12-09,Low,Onboarding,2.0,1
+TKT-00199,CUST-0113,Enterprise,2024-10-26,Medium,Technical,2.7,1
+TKT-00200,CUST-0114,SMB,2024-05-09,Medium,Bug,6.0,1
+TKT-00201,CUST-0115,Healthcare,2024-06-01,Medium,Onboarding,6.5,1
+TKT-00202,CUST-0115,Healthcare,2024-08-25,Low,Billing,2.6,1
+TKT-00203,CUST-0115,Healthcare,2024-09-22,Critical,Bug,5.3,1
+TKT-00204,CUST-0115,Healthcare,2024-09-16,Low,Technical,6.4,1
+TKT-00205,CUST-0115,Healthcare,2024-07-19,Low,Technical,1.8,1
+TKT-00206,CUST-0115,Healthcare,2024-11-01,High,Feature Request,7.4,1
+TKT-00207,CUST-0116,Healthcare,2024-04-30,Low,Billing,7.5,1
+TKT-00208,CUST-0116,Healthcare,2024-12-26,Low,Onboarding,2.5,1
+TKT-00209,CUST-0116,Healthcare,2024-07-20,Medium,Feature Request,7.2,1
+TKT-00210,CUST-0116,Healthcare,2024-02-22,Low,Bug,1.4,1
+TKT-00211,CUST-0117,Startup,2024-07-11,Low,Bug,1.2,1
+TKT-00212,CUST-0117,Startup,2024-06-25,Low,Feature Request,2.6,1
+TKT-00213,CUST-0118,SMB,2024-12-05,Medium,Onboarding,37.1,1
+TKT-00214,CUST-0119,SMB,2024-07-13,High,Billing,31.6,1
+TKT-00215,CUST-0119,SMB,2024-07-15,Medium,Feature Request,64.2,0
+TKT-00216,CUST-0120,Enterprise,2024-05-07,Low,Billing,47.1,1
+TKT-00217,CUST-0121,SMB,2024-09-23,Low,Feature Request,7.5,1
+TKT-00218,CUST-0122,SMB,2024-09-28,Low,Technical,2.0,1
+TKT-00219,CUST-0124,Mid-Market,2024-11-22,Low,Onboarding,2.9,1
+TKT-00220,CUST-0124,Mid-Market,2024-03-09,Low,Onboarding,5.0,1
+TKT-00221,CUST-0124,Mid-Market,2024-03-13,Low,Feature Request,4.3,1
+TKT-00222,CUST-0126,SMB,2024-09-13,High,Onboarding,2.5,1
+TKT-00223,CUST-0126,SMB,2024-09-10,High,Bug,5.5,1
+TKT-00224,CUST-0126,SMB,2024-09-13,Medium,Technical,4.9,1
+TKT-00225,CUST-0127,Mid-Market,2024-09-02,Medium,Technical,4.7,1
+TKT-00226,CUST-0128,SMB,2024-11-24,High,Feature Request,28.8,1
+TKT-00227,CUST-0129,Healthcare,2024-08-15,Low,Technical,38.1,1
+TKT-00228,CUST-0129,Healthcare,2024-06-26,Critical,Feature Request,65.9,0
+TKT-00229,CUST-0129,Healthcare,2024-05-03,Low,Bug,40.2,1
+TKT-00230,CUST-0130,Healthcare,2024-06-22,Medium,Billing,3.8,1
+TKT-00231,CUST-0130,Healthcare,2024-10-07,Medium,Billing,1.6,1
+TKT-00232,CUST-0130,Healthcare,2024-12-08,Medium,Technical,7.6,1
+TKT-00233,CUST-0130,Healthcare,2024-09-13,Low,Billing,5.5,1
+TKT-00234,CUST-0130,Healthcare,2024-06-18,Medium,Feature Request,3.1,1
+TKT-00235,CUST-0131,SMB,2024-11-25,Medium,Feature Request,1.2,1
+TKT-00236,CUST-0131,SMB,2024-10-01,High,Feature Request,7.1,1
+TKT-00237,CUST-0131,SMB,2024-05-11,High,Feature Request,3.6,1
+TKT-00238,CUST-0133,Healthcare,2024-12-21,Low,Feature Request,49.6,0
+TKT-00239,CUST-0133,Healthcare,2024-07-20,Medium,Onboarding,29.8,1
+TKT-00240,CUST-0133,Healthcare,2024-12-10,Medium,Billing,59.7,0
+TKT-00241,CUST-0134,Healthcare,2024-10-29,High,Billing,56.1,0
+TKT-00242,CUST-0134,Healthcare,2024-10-02,Critical,Billing,52.5,0
+TKT-00243,CUST-0134,Healthcare,2024-06-21,Low,Billing,39.9,1
+TKT-00244,CUST-0134,Healthcare,2024-08-25,Low,Billing,50.9,0
+TKT-00245,CUST-0135,Enterprise,2024-12-29,Medium,Onboarding,2.4,1
+TKT-00246,CUST-0136,Startup,2024-08-07,Medium,Bug,5.5,1
+TKT-00247,CUST-0136,Startup,2024-12-03,Low,Technical,6.2,1
+TKT-00248,CUST-0137,Healthcare,2024-10-25,Low,Feature Request,2.9,1
+TKT-00249,CUST-0137,Healthcare,2024-10-13,Low,Feature Request,3.6,1
+TKT-00250,CUST-0137,Healthcare,2024-12-06,Medium,Feature Request,6.8,1
+TKT-00251,CUST-0137,Healthcare,2024-12-18,Medium,Onboarding,4.7,1
+TKT-00252,CUST-0139,Healthcare,2024-11-11,Medium,Billing,6.6,1
+TKT-00253,CUST-0139,Healthcare,2024-06-29,High,Billing,4.2,1
+TKT-00254,CUST-0139,Healthcare,2024-10-11,High,Billing,3.0,1
+TKT-00255,CUST-0139,Healthcare,2024-05-19,Low,Technical,1.8,1
+TKT-00256,CUST-0139,Healthcare,2024-12-04,Low,Billing,2.4,1
+TKT-00257,CUST-0140,Healthcare,2024-07-13,Medium,Technical,5.8,1
+TKT-00258,CUST-0140,Healthcare,2024-08-28,Low,Billing,4.1,1
+TKT-00259,CUST-0140,Healthcare,2024-07-12,Low,Technical,1.2,1
+TKT-00260,CUST-0140,Healthcare,2024-11-28,Critical,Feature Request,5.5,1
+TKT-00261,CUST-0140,Healthcare,2024-09-24,Low,Onboarding,5.5,1
+TKT-00262,CUST-0140,Healthcare,2024-08-31,Medium,Bug,5.9,1
+TKT-00263,CUST-0140,Healthcare,2024-08-20,Medium,Onboarding,5.0,1
+TKT-00264,CUST-0141,SMB,2024-10-05,High,Onboarding,2.6,1
+TKT-00265,CUST-0143,Healthcare,2024-12-27,Low,Technical,6.9,1
+TKT-00266,CUST-0143,Healthcare,2024-07-22,Low,Bug,7.7,1
+TKT-00267,CUST-0143,Healthcare,2024-12-15,Low,Technical,4.7,1
+TKT-00268,CUST-0143,Healthcare,2024-12-28,Low,Technical,6.0,1
+TKT-00269,CUST-0144,Mid-Market,2024-07-23,Low,Onboarding,1.3,1
+TKT-00270,CUST-0144,Mid-Market,2024-11-06,Low,Technical,2.8,1
+TKT-00271,CUST-0146,Mid-Market,2024-06-10,Medium,Onboarding,1.2,1
+TKT-00272,CUST-0150,Mid-Market,2024-08-17,Low,Technical,4.1,1
+TKT-00273,CUST-0150,Mid-Market,2024-11-22,Low,Feature Request,7.4,1
+TKT-00274,CUST-0151,Mid-Market,2024-12-30,Medium,Feature Request,2.0,1
+TKT-00275,CUST-0152,Healthcare,2024-07-03,Low,Bug,70.2,0
+TKT-00276,CUST-0152,Healthcare,2024-10-07,Low,Feature Request,54.3,0
+TKT-00277,CUST-0152,Healthcare,2024-06-18,Critical,Bug,57.2,0
+TKT-00278,CUST-0152,Healthcare,2024-12-28,Low,Feature Request,45.9,1
+TKT-00279,CUST-0152,Healthcare,2024-07-13,Medium,Billing,55.9,0
+TKT-00280,CUST-0152,Healthcare,2024-04-02,Medium,Billing,19.0,1
+TKT-00281,CUST-0152,Healthcare,2024-08-14,Medium,Onboarding,25.2,1
+TKT-00282,CUST-0152,Healthcare,2024-03-09,Low,Technical,48.5,0
+TKT-00283,CUST-0153,Healthcare,2024-11-14,Medium,Onboarding,58.9,0
+TKT-00284,CUST-0153,Healthcare,2024-08-07,Low,Feature Request,44.3,1
+TKT-00285,CUST-0153,Healthcare,2024-12-08,Medium,Bug,17.2,1
+TKT-00286,CUST-0153,Healthcare,2024-09-26,Low,Bug,31.1,1
+TKT-00287,CUST-0153,Healthcare,2024-10-26,Critical,Onboarding,66.5,0
+TKT-00288,CUST-0153,Healthcare,2024-09-27,Low,Onboarding,63.2,0
+TKT-00289,CUST-0153,Healthcare,2024-09-24,Low,Onboarding,29.1,1
+TKT-00290,CUST-0153,Healthcare,2024-09-04,Critical,Billing,64.5,0
+TKT-00291,CUST-0155,SMB,2024-08-10,Medium,Feature Request,4.1,1
+TKT-00292,CUST-0155,SMB,2024-10-07,Low,Feature Request,6.6,1
+TKT-00293,CUST-0156,Healthcare,2024-10-13,Low,Billing,5.1,1
+TKT-00294,CUST-0156,Healthcare,2024-08-04,Low,Bug,4.3,1
+TKT-00295,CUST-0156,Healthcare,2024-09-22,Low,Feature Request,7.7,1
+TKT-00296,CUST-0156,Healthcare,2024-07-21,Low,Onboarding,5.5,1
+TKT-00297,CUST-0156,Healthcare,2024-10-13,Low,Bug,4.2,1
+TKT-00298,CUST-0156,Healthcare,2024-08-03,Low,Onboarding,6.8,1
+TKT-00299,CUST-0156,Healthcare,2024-11-17,Medium,Onboarding,6.8,1
+TKT-00300,CUST-0158,Mid-Market,2024-08-21,Medium,Technical,6.2,1
+TKT-00301,CUST-0158,Mid-Market,2024-04-01,High,Onboarding,2.1,1
+TKT-00302,CUST-0159,Healthcare,2024-10-17,High,Onboarding,4.3,1
+TKT-00303,CUST-0159,Healthcare,2024-08-21,Low,Technical,7.3,1
+TKT-00304,CUST-0159,Healthcare,2024-05-14,Low,Billing,2.9,1
+TKT-00305,CUST-0160,Mid-Market,2024-10-26,Medium,Bug,5.1,1
+TKT-00306,CUST-0160,Mid-Market,2024-09-14,High,Feature Request,5.4,1
+TKT-00307,CUST-0160,Mid-Market,2024-11-19,High,Bug,3.6,1
+TKT-00308,CUST-0162,Mid-Market,2024-04-07,High,Billing,2.1,1
+TKT-00309,CUST-0163,Healthcare,2024-09-14,Low,Technical,7.1,1
+TKT-00310,CUST-0163,Healthcare,2024-10-11,Low,Feature Request,2.9,1
+TKT-00311,CUST-0163,Healthcare,2024-11-16,Critical,Onboarding,3.5,1
+TKT-00312,CUST-0165,SMB,2024-08-30,Medium,Bug,7.6,1
+TKT-00313,CUST-0166,Startup,2024-08-02,High,Billing,2.3,1
+TKT-00314,CUST-0171,SMB,2024-11-12,High,Onboarding,4.8,1
+TKT-00315,CUST-0171,SMB,2024-12-04,High,Onboarding,2.9,1
+TKT-00316,CUST-0172,Healthcare,2024-09-11,Medium,Technical,33.1,1
+TKT-00317,CUST-0172,Healthcare,2024-08-21,Low,Feature Request,28.9,1
+TKT-00318,CUST-0172,Healthcare,2024-12-01,Low,Billing,66.6,0
+TKT-00319,CUST-0172,Healthcare,2024-10-12,Low,Technical,25.3,1
+TKT-00320,CUST-0173,SMB,2024-12-29,High,Bug,5.3,1
+TKT-00321,CUST-0174,SMB,2024-09-20,Medium,Billing,7.4,1
+TKT-00322,CUST-0176,Startup,2024-06-15,Critical,Onboarding,4.4,1
+TKT-00323,CUST-0176,Startup,2024-10-11,Low,Bug,4.1,1
+TKT-00324,CUST-0177,SMB,2024-11-23,High,Onboarding,32.5,1
+TKT-00325,CUST-0177,SMB,2024-03-15,Medium,Technical,19.1,1
+TKT-00326,CUST-0177,SMB,2024-05-12,Medium,Technical,30.4,1
+TKT-00327,CUST-0179,Healthcare,2024-05-17,Critical,Billing,37.5,1
+TKT-00328,CUST-0179,Healthcare,2024-04-20,Low,Feature Request,41.1,1
+TKT-00329,CUST-0179,Healthcare,2024-04-02,Low,Bug,14.0,1
+TKT-00330,CUST-0179,Healthcare,2024-04-11,Medium,Billing,66.5,0
+TKT-00331,CUST-0179,Healthcare,2024-04-14,Low,Billing,12.6,1
+TKT-00332,CUST-0179,Healthcare,2024-05-14,Critical,Technical,24.3,1
+TKT-00333,CUST-0180,Healthcare,2024-07-19,Medium,Technical,13.8,1
+TKT-00334,CUST-0180,Healthcare,2024-12-10,Critical,Onboarding,68.9,0
+TKT-00335,CUST-0180,Healthcare,2024-08-31,Low,Bug,42.0,1
+TKT-00336,CUST-0180,Healthcare,2024-08-02,Medium,Bug,16.1,1
+TKT-00337,CUST-0180,Healthcare,2024-12-14,Low,Technical,25.0,1
+TKT-00338,CUST-0180,Healthcare,2024-08-13,Low,Billing,57.2,0
+TKT-00339,CUST-0181,SMB,2024-11-30,Low,Bug,2.5,1
+TKT-00340,CUST-0182,SMB,2024-12-07,Medium,Bug,34.0,1
+TKT-00341,CUST-0184,Mid-Market,2024-07-01,Medium,Technical,7.7,1
+TKT-00342,CUST-0184,Mid-Market,2024-09-26,Critical,Bug,4.0,1
+TKT-00343,CUST-0185,SMB,2024-10-03,Medium,Onboarding,6.3,1
+TKT-00344,CUST-0186,Mid-Market,2024-09-22,Medium,Feature Request,4.6,1
+TKT-00345,CUST-0186,Mid-Market,2024-12-13,Low,Billing,3.0,1
+TKT-00346,CUST-0187,Startup,2024-08-11,Low,Onboarding,1.8,1
+TKT-00347,CUST-0188,Mid-Market,2024-10-30,Medium,Feature Request,3.2,1
+TKT-00348,CUST-0188,Mid-Market,2024-09-30,Medium,Feature Request,3.0,1
+TKT-00349,CUST-0189,Mid-Market,2024-10-22,High,Feature Request,7.3,1
+TKT-00350,CUST-0190,SMB,2024-09-25,Low,Feature Request,8.0,1
+TKT-00351,CUST-0190,SMB,2024-05-13,Low,Billing,4.7,1
+TKT-00352,CUST-0190,SMB,2024-05-21,Low,Bug,3.8,1
+TKT-00353,CUST-0191,Mid-Market,2024-04-07,Medium,Technical,7.2,1
+TKT-00354,CUST-0192,Healthcare,2024-05-03,Low,Technical,2.4,1
+TKT-00355,CUST-0192,Healthcare,2024-10-23,Low,Feature Request,6.9,1
+TKT-00356,CUST-0192,Healthcare,2024-08-20,High,Bug,6.4,1
+TKT-00357,CUST-0192,Healthcare,2024-08-17,High,Feature Request,6.6,1
+TKT-00358,CUST-0192,Healthcare,2024-09-29,Medium,Feature Request,5.2,1
+TKT-00359,CUST-0193,Startup,2024-10-29,Medium,Feature Request,2.0,1
+TKT-00360,CUST-0193,Startup,2024-04-19,Low,Technical,4.4,1
+TKT-00361,CUST-0194,Startup,2024-11-15,Critical,Billing,13.8,1
+TKT-00362,CUST-0194,Startup,2024-12-11,Low,Technical,52.7,0
+TKT-00363,CUST-0195,SMB,2024-10-20,Medium,Onboarding,3.3,1
+TKT-00364,CUST-0195,SMB,2024-05-27,High,Bug,5.6,1
+TKT-00365,CUST-0195,SMB,2024-12-16,High,Feature Request,2.4,1
+TKT-00366,CUST-0196,Mid-Market,2024-09-09,Medium,Bug,44.5,1
+TKT-00367,CUST-0198,Mid-Market,2024-10-25,Low,Feature Request,6.3,1
+TKT-00368,CUST-0198,Mid-Market,2024-07-08,Low,Feature Request,3.2,1
+TKT-00369,CUST-0199,Mid-Market,2024-10-31,Medium,Bug,1.2,1
+TKT-00370,CUST-0199,Mid-Market,2024-12-25,High,Technical,3.1,1
+TKT-00371,CUST-0199,Mid-Market,2024-11-12,Medium,Feature Request,3.2,1
+TKT-00372,CUST-0200,SMB,2024-10-17,High,Feature Request,5.0,1
+TKT-00373,CUST-0200,SMB,2024-11-20,Medium,Feature Request,5.0,1
+TKT-00374,CUST-0201,SMB,2024-12-29,High,Feature Request,42.4,1
+TKT-00375,CUST-0201,SMB,2024-07-29,Medium,Bug,70.3,0
+TKT-00376,CUST-0201,SMB,2024-09-13,High,Billing,29.1,1
+TKT-00377,CUST-0202,Mid-Market,2024-08-27,Medium,Onboarding,1.9,1
+TKT-00378,CUST-0202,Mid-Market,2024-11-17,High,Onboarding,5.1,1
+TKT-00379,CUST-0202,Mid-Market,2024-11-25,Low,Onboarding,3.4,1
+TKT-00380,CUST-0204,Mid-Market,2024-10-20,Low,Technical,5.6,1
+TKT-00381,CUST-0205,SMB,2024-10-16,Medium,Billing,5.1,1
+TKT-00382,CUST-0205,SMB,2024-11-03,Low,Bug,2.2,1
+TKT-00383,CUST-0205,SMB,2024-11-08,Low,Feature Request,5.6,1
+TKT-00384,CUST-0206,SMB,2024-12-20,Critical,Feature Request,2.9,1
+TKT-00385,CUST-0206,SMB,2024-04-12,Critical,Feature Request,3.6,1
+TKT-00386,CUST-0206,SMB,2024-09-13,Medium,Billing,6.7,1
+TKT-00387,CUST-0207,Healthcare,2024-09-26,Low,Onboarding,4.5,1
+TKT-00388,CUST-0207,Healthcare,2024-09-16,Medium,Feature Request,3.5,1
+TKT-00389,CUST-0207,Healthcare,2024-09-25,Medium,Billing,6.9,1
+TKT-00390,CUST-0207,Healthcare,2024-12-20,Low,Onboarding,2.9,1
+TKT-00391,CUST-0209,Enterprise,2024-09-28,Medium,Billing,2.6,1
+TKT-00392,CUST-0209,Enterprise,2024-11-04,High,Onboarding,1.7,1
+TKT-00393,CUST-0209,Enterprise,2024-07-13,Low,Feature Request,6.6,1
+TKT-00394,CUST-0210,SMB,2024-08-16,Low,Onboarding,6.6,1
+TKT-00395,CUST-0210,SMB,2024-09-05,High,Bug,4.0,1
+TKT-00396,CUST-0211,Healthcare,2024-11-02,Low,Bug,3.8,1
+TKT-00397,CUST-0211,Healthcare,2024-11-27,Medium,Technical,6.3,1
+TKT-00398,CUST-0211,Healthcare,2024-09-25,Medium,Technical,4.6,1
+TKT-00399,CUST-0211,Healthcare,2024-12-05,Medium,Feature Request,5.6,1
+TKT-00400,CUST-0212,Startup,2024-09-01,Critical,Bug,4.7,1
+TKT-00401,CUST-0212,Startup,2024-10-14,Critical,Billing,6.1,1
+TKT-00402,CUST-0212,Startup,2024-11-05,Low,Technical,4.2,1
+TKT-00403,CUST-0213,SMB,2024-06-10,Medium,Feature Request,6.4,1
+TKT-00404,CUST-0213,SMB,2024-08-16,Low,Billing,6.8,1
+TKT-00405,CUST-0214,SMB,2024-12-26,Low,Onboarding,3.9,1
+TKT-00406,CUST-0216,Healthcare,2024-12-01,Low,Technical,53.2,0
+TKT-00407,CUST-0216,Healthcare,2024-09-30,Low,Billing,21.0,1
+TKT-00408,CUST-0216,Healthcare,2024-08-20,High,Feature Request,30.6,1
+TKT-00409,CUST-0216,Healthcare,2024-11-09,Critical,Billing,37.3,1
+TKT-00410,CUST-0217,Startup,2024-06-22,Low,Onboarding,2.0,1
+TKT-00411,CUST-0217,Startup,2024-11-20,High,Technical,5.6,1
+TKT-00412,CUST-0218,SMB,2024-03-12,Critical,Billing,4.4,1
+TKT-00413,CUST-0218,SMB,2024-03-19,High,Bug,1.6,1
+TKT-00414,CUST-0218,SMB,2024-07-21,High,Feature Request,7.3,1
+TKT-00415,CUST-0219,Mid-Market,2024-07-13,Medium,Feature Request,7.2,1
+TKT-00416,CUST-0219,Mid-Market,2024-03-20,Low,Bug,5.0,1
+TKT-00417,CUST-0219,Mid-Market,2024-03-10,Medium,Bug,6.8,1
+TKT-00418,CUST-0220,Mid-Market,2024-08-24,Medium,Bug,1.6,1
+TKT-00419,CUST-0220,Mid-Market,2024-07-22,High,Bug,3.2,1
+TKT-00420,CUST-0220,Mid-Market,2024-12-26,Low,Technical,6.2,1
+TKT-00421,CUST-0222,Enterprise,2024-12-16,Medium,Technical,2.0,1
+TKT-00422,CUST-0222,Enterprise,2024-06-14,Critical,Onboarding,4.1,1
+TKT-00423,CUST-0224,Healthcare,2024-08-22,Medium,Billing,3.6,1
+TKT-00424,CUST-0224,Healthcare,2024-10-28,Medium,Technical,4.3,1
+TKT-00425,CUST-0224,Healthcare,2024-10-18,High,Onboarding,7.6,1
+TKT-00426,CUST-0225,Enterprise,2024-11-20,Medium,Billing,61.3,0
+TKT-00427,CUST-0225,Enterprise,2024-12-24,Low,Billing,56.4,0
+TKT-00428,CUST-0225,Enterprise,2024-09-21,Low,Onboarding,35.1,1
+TKT-00429,CUST-0226,Startup,2024-03-19,Medium,Feature Request,26.2,1
+TKT-00430,CUST-0226,Startup,2024-08-02,Low,Onboarding,69.6,0
+TKT-00431,CUST-0226,Startup,2024-06-19,Low,Technical,61.4,0
+TKT-00432,CUST-0228,Enterprise,2024-06-24,Low,Feature Request,7.2,1
+TKT-00433,CUST-0228,Enterprise,2024-12-12,Low,Feature Request,6.7,1
+TKT-00434,CUST-0229,SMB,2024-03-31,Low,Feature Request,1.6,1
+TKT-00435,CUST-0229,SMB,2024-11-10,Medium,Onboarding,7.5,1
+TKT-00436,CUST-0229,SMB,2024-10-16,High,Technical,6.7,1
+TKT-00437,CUST-0230,Mid-Market,2024-12-13,Low,Feature Request,1.5,1
+TKT-00438,CUST-0231,Healthcare,2024-12-23,Medium,Onboarding,4.8,1
+TKT-00439,CUST-0231,Healthcare,2024-11-15,Medium,Technical,6.3,1
+TKT-00440,CUST-0231,Healthcare,2024-12-30,Medium,Billing,5.5,1
+TKT-00441,CUST-0231,Healthcare,2024-11-01,Low,Bug,3.1,1
+TKT-00442,CUST-0232,Startup,2024-08-03,Low,Technical,27.0,1
+TKT-00443,CUST-0236,Startup,2024-12-19,Medium,Onboarding,3.9,1
+TKT-00444,CUST-0236,Startup,2024-09-09,Medium,Onboarding,6.1,1
+TKT-00445,CUST-0236,Startup,2024-06-30,Medium,Onboarding,6.8,1
+TKT-00446,CUST-0237,Mid-Market,2024-06-25,Low,Feature Request,3.6,1
+TKT-00447,CUST-0237,Mid-Market,2024-12-16,Low,Bug,6.8,1
+TKT-00448,CUST-0237,Mid-Market,2024-07-02,Low,Bug,1.2,1
+TKT-00449,CUST-0238,Mid-Market,2024-12-25,Medium,Billing,2.6,1
+TKT-00450,CUST-0238,Mid-Market,2024-11-08,Low,Technical,5.9,1
+TKT-00451,CUST-0239,SMB,2024-05-07,Medium,Onboarding,4.0,1
+TKT-00452,CUST-0240,Mid-Market,2024-08-18,Low,Bug,34.1,1
+TKT-00453,CUST-0240,Mid-Market,2024-08-10,Low,Feature Request,43.6,1
+TKT-00454,CUST-0241,SMB,2024-12-28,Low,Technical,6.0,1
+TKT-00455,CUST-0242,Mid-Market,2024-12-31,High,Feature Request,28.0,1
+TKT-00456,CUST-0243,Mid-Market,2024-10-29,Low,Bug,7.0,1
+TKT-00457,CUST-0243,Mid-Market,2024-09-17,Critical,Technical,3.0,1
+TKT-00458,CUST-0243,Mid-Market,2024-11-08,Low,Billing,6.5,1
+TKT-00459,CUST-0244,Healthcare,2024-07-10,Critical,Feature Request,26.1,1
+TKT-00460,CUST-0244,Healthcare,2024-06-19,Low,Feature Request,53.1,0
+TKT-00461,CUST-0244,Healthcare,2024-03-27,Low,Onboarding,20.0,1
+TKT-00462,CUST-0244,Healthcare,2024-09-03,Medium,Feature Request,54.8,0
+TKT-00463,CUST-0244,Healthcare,2024-12-14,Low,Billing,17.7,1
+TKT-00464,CUST-0245,SMB,2024-08-21,Low,Onboarding,26.1,1
+TKT-00465,CUST-0245,SMB,2024-08-19,Low,Feature Request,42.3,1
+TKT-00466,CUST-0246,Healthcare,2024-11-10,Critical,Technical,5.7,1
+TKT-00467,CUST-0246,Healthcare,2024-09-04,Medium,Bug,2.8,1
+TKT-00468,CUST-0246,Healthcare,2024-12-29,Critical,Technical,7.1,1
+TKT-00469,CUST-0246,Healthcare,2024-09-16,Low,Technical,4.7,1
+TKT-00470,CUST-0246,Healthcare,2024-10-30,Low,Technical,1.3,1
+TKT-00471,CUST-0247,Enterprise,2024-11-23,High,Onboarding,6.8,1
+TKT-00472,CUST-0247,Enterprise,2024-10-19,Low,Bug,7.1,1
+TKT-00473,CUST-0249,Mid-Market,2024-12-27,Critical,Feature Request,4.6,1
+TKT-00474,CUST-0250,SMB,2024-09-20,Low,Technical,8.0,1
+TKT-00475,CUST-0251,SMB,2024-11-12,High,Feature Request,5.6,1
+TKT-00476,CUST-0252,Mid-Market,2024-06-22,Low,Technical,1.4,1
+TKT-00477,CUST-0252,Mid-Market,2024-06-18,Medium,Feature Request,2.1,1
+TKT-00478,CUST-0252,Mid-Market,2024-09-28,Low,Feature Request,7.3,1
+TKT-00479,CUST-0254,Enterprise,2024-08-12,Medium,Bug,7.9,1
+TKT-00480,CUST-0254,Enterprise,2024-12-04,Medium,Technical,1.8,1
+TKT-00481,CUST-0254,Enterprise,2024-09-02,Low,Onboarding,2.4,1
+TKT-00482,CUST-0255,SMB,2024-06-26,High,Onboarding,6.2,1
+TKT-00483,CUST-0256,Healthcare,2024-07-26,Medium,Bug,7.8,1
+TKT-00484,CUST-0256,Healthcare,2024-07-10,Medium,Feature Request,1.5,1
+TKT-00485,CUST-0256,Healthcare,2024-05-27,High,Billing,1.2,1
+TKT-00486,CUST-0256,Healthcare,2024-10-27,Low,Billing,7.5,1
+TKT-00487,CUST-0256,Healthcare,2024-09-21,Low,Feature Request,1.6,1
+TKT-00488,CUST-0256,Healthcare,2024-11-27,Medium,Billing,2.9,1
+TKT-00489,CUST-0256,Healthcare,2024-09-24,Critical,Feature Request,5.6,1
+TKT-00490,CUST-0256,Healthcare,2024-09-22,Critical,Bug,8.0,1
+TKT-00491,CUST-0257,Healthcare,2024-05-25,Low,Onboarding,14.9,1
+TKT-00492,CUST-0257,Healthcare,2024-07-13,High,Bug,56.6,0
+TKT-00493,CUST-0257,Healthcare,2024-12-21,Medium,Onboarding,17.6,1
+TKT-00494,CUST-0257,Healthcare,2024-06-06,Low,Feature Request,58.3,0
+TKT-00495,CUST-0257,Healthcare,2024-05-14,Low,Feature Request,24.5,1
+TKT-00496,CUST-0258,SMB,2024-09-21,Low,Technical,6.3,1
+TKT-00497,CUST-0258,SMB,2024-04-29,Low,Onboarding,6.6,1
+TKT-00498,CUST-0259,Healthcare,2024-12-23,Medium,Billing,19.9,1
+TKT-00499,CUST-0259,Healthcare,2024-12-05,Low,Feature Request,24.0,1
+TKT-00500,CUST-0259,Healthcare,2024-12-18,Low,Bug,28.1,1
+TKT-00501,CUST-0259,Healthcare,2024-08-22,Low,Onboarding,37.4,1
+TKT-00502,CUST-0259,Healthcare,2024-10-10,Low,Billing,49.8,0
+TKT-00503,CUST-0259,Healthcare,2024-05-16,Medium,Technical,70.4,0
+TKT-00504,CUST-0259,Healthcare,2024-10-18,Medium,Feature Request,21.3,1
+TKT-00505,CUST-0260,Healthcare,2024-11-09,Medium,Onboarding,4.7,1
+TKT-00506,CUST-0260,Healthcare,2024-10-25,Medium,Feature Request,7.4,1
+TKT-00507,CUST-0260,Healthcare,2024-09-12,Low,Onboarding,1.9,1
+TKT-00508,CUST-0260,Healthcare,2024-08-30,Medium,Billing,3.1,1
+TKT-00509,CUST-0260,Healthcare,2024-11-16,Low,Billing,1.3,1
+TKT-00510,CUST-0260,Healthcare,2024-11-05,Medium,Bug,1.7,1
+TKT-00511,CUST-0261,Healthcare,2024-11-03,Low,Bug,5.1,1
+TKT-00512,CUST-0261,Healthcare,2024-10-04,Low,Technical,5.6,1
+TKT-00513,CUST-0261,Healthcare,2024-10-25,High,Feature Request,1.3,1
+TKT-00514,CUST-0261,Healthcare,2024-12-31,Low,Feature Request,5.1,1
+TKT-00515,CUST-0261,Healthcare,2024-12-26,Medium,Onboarding,6.7,1
+TKT-00516,CUST-0261,Healthcare,2024-10-25,Low,Bug,1.5,1
+TKT-00517,CUST-0262,SMB,2024-07-26,High,Bug,1.7,1
+TKT-00518,CUST-0263,Enterprise,2024-03-22,Low,Technical,1.8,1
+TKT-00519,CUST-0263,Enterprise,2024-11-12,Medium,Bug,3.8,1
+TKT-00520,CUST-0264,SMB,2024-11-23,Medium,Bug,5.3,1
+TKT-00521,CUST-0264,SMB,2024-08-22,Medium,Feature Request,7.7,1
+TKT-00522,CUST-0265,Mid-Market,2024-11-07,Low,Technical,1.9,1
+TKT-00523,CUST-0265,Mid-Market,2024-09-19,High,Technical,5.9,1
+TKT-00524,CUST-0266,SMB,2024-12-30,Low,Technical,4.4,1
+TKT-00525,CUST-0267,SMB,2024-10-23,Medium,Bug,49.6,0
+TKT-00526,CUST-0267,SMB,2024-10-10,Low,Technical,58.2,0
+TKT-00527,CUST-0267,SMB,2024-12-22,Medium,Technical,19.0,1
+TKT-00528,CUST-0268,Startup,2024-12-09,Medium,Feature Request,7.7,1
+TKT-00529,CUST-0268,Startup,2024-06-08,High,Technical,5.1,1
+TKT-00530,CUST-0269,Mid-Market,2024-08-19,Medium,Billing,6.8,1
+TKT-00531,CUST-0274,Healthcare,2024-08-29,Low,Feature Request,49.8,0
+TKT-00532,CUST-0274,Healthcare,2024-10-10,High,Bug,56.2,0
+TKT-00533,CUST-0274,Healthcare,2024-12-20,Critical,Feature Request,14.2,1
+TKT-00534,CUST-0274,Healthcare,2024-11-15,Medium,Feature Request,55.5,0
+TKT-00535,CUST-0274,Healthcare,2024-07-08,Medium,Feature Request,43.7,1
+TKT-00536,CUST-0275,Healthcare,2024-12-13,Low,Feature Request,15.8,1
+TKT-00537,CUST-0275,Healthcare,2024-11-17,Low,Onboarding,49.4,0
+TKT-00538,CUST-0275,Healthcare,2024-11-10,Medium,Onboarding,13.2,1
+TKT-00539,CUST-0275,Healthcare,2024-09-06,Medium,Bug,38.3,1
+TKT-00540,CUST-0275,Healthcare,2024-09-13,Medium,Bug,53.1,0
+TKT-00541,CUST-0275,Healthcare,2024-11-15,Low,Feature Request,29.6,1
+TKT-00542,CUST-0276,Mid-Market,2024-10-17,High,Onboarding,5.7,1
+TKT-00543,CUST-0277,Healthcare,2024-10-05,High,Bug,62.7,0
+TKT-00544,CUST-0277,Healthcare,2024-05-23,Low,Feature Request,57.0,0
+TKT-00545,CUST-0277,Healthcare,2024-04-13,Low,Feature Request,21.4,1
+TKT-00546,CUST-0277,Healthcare,2024-03-29,High,Feature Request,68.6,0
+TKT-00547,CUST-0278,Startup,2024-10-16,Low,Billing,4.9,1
+TKT-00548,CUST-0278,Startup,2024-10-30,High,Technical,3.5,1
+TKT-00549,CUST-0278,Startup,2024-09-13,High,Billing,7.3,1
+TKT-00550,CUST-0279,SMB,2024-05-16,Low,Technical,1.8,1
+TKT-00551,CUST-0280,Mid-Market,2024-09-10,Medium,Onboarding,4.4,1
+TKT-00552,CUST-0282,Startup,2024-09-02,High,Bug,6.4,1
+TKT-00553,CUST-0282,Startup,2024-07-19,High,Bug,7.0,1
+TKT-00554,CUST-0283,Startup,2024-12-14,Medium,Feature Request,5.9,1
+TKT-00555,CUST-0283,Startup,2024-09-30,Critical,Billing,6.3,1
+TKT-00556,CUST-0285,Startup,2024-11-26,Medium,Billing,7.0,1
+TKT-00557,CUST-0285,Startup,2024-11-01,Low,Billing,1.7,1
+TKT-00558,CUST-0285,Startup,2024-05-03,Critical,Onboarding,2.1,1
+TKT-00559,CUST-0287,Healthcare,2024-11-21,Medium,Billing,4.5,1
+TKT-00560,CUST-0287,Healthcare,2024-07-02,Medium,Technical,3.3,1
+TKT-00561,CUST-0287,Healthcare,2024-06-24,High,Feature Request,4.1,1
+TKT-00562,CUST-0287,Healthcare,2024-12-06,High,Feature Request,2.7,1
+TKT-00563,CUST-0287,Healthcare,2024-08-19,Low,Onboarding,2.2,1
+TKT-00564,CUST-0287,Healthcare,2024-08-27,Medium,Technical,3.9,1
+TKT-00565,CUST-0288,SMB,2024-06-11,High,Technical,4.7,1
+TKT-00566,CUST-0288,SMB,2024-06-08,High,Feature Request,3.9,1
+TKT-00567,CUST-0288,SMB,2024-12-19,Medium,Onboarding,7.0,1
+TKT-00568,CUST-0290,Healthcare,2024-12-28,Low,Billing,2.0,1
+TKT-00569,CUST-0290,Healthcare,2024-10-31,High,Billing,7.6,1
+TKT-00570,CUST-0290,Healthcare,2024-07-26,Low,Technical,7.9,1
+TKT-00571,CUST-0292,SMB,2024-10-15,Low,Technical,57.6,0
+TKT-00572,CUST-0292,SMB,2024-12-26,Low,Bug,49.9,0
+TKT-00573,CUST-0293,Healthcare,2024-08-08,Medium,Bug,7.2,1
+TKT-00574,CUST-0293,Healthcare,2024-08-12,Medium,Onboarding,3.2,1
+TKT-00575,CUST-0293,Healthcare,2024-03-14,High,Bug,7.3,1
+TKT-00576,CUST-0294,SMB,2024-09-25,Medium,Technical,4.1,1
+TKT-00577,CUST-0294,SMB,2024-12-10,Medium,Feature Request,7.2,1
+TKT-00578,CUST-0295,Mid-Market,2024-12-31,Low,Billing,30.1,1
+TKT-00579,CUST-0295,Mid-Market,2024-10-31,Low,Technical,55.5,0
+TKT-00580,CUST-0296,Enterprise,2024-12-30,Critical,Billing,3.0,1
+TKT-00581,CUST-0297,Enterprise,2024-08-31,Medium,Technical,43.3,1
+TKT-00582,CUST-0297,Enterprise,2024-04-28,Low,Bug,59.8,0
+TKT-00583,CUST-0299,Enterprise,2024-09-25,Low,Feature Request,6.4,1
+TKT-00584,CUST-0299,Enterprise,2024-11-27,Low,Onboarding,1.4,1
+TKT-00585,CUST-0299,Enterprise,2024-09-25,Medium,Billing,3.5,1
+TKT-00586,CUST-0300,Mid-Market,2024-11-14,Medium,Onboarding,1.9,1
+TKT-00587,CUST-0300,Mid-Market,2024-09-28,Medium,Technical,4.2,1
+TKT-00588,CUST-0300,Mid-Market,2024-11-27,Medium,Bug,5.1,1
+TKT-00589,CUST-0302,Healthcare,2024-11-12,Low,Bug,30.0,1
+TKT-00590,CUST-0302,Healthcare,2024-12-02,Low,Technical,34.7,1
+TKT-00591,CUST-0302,Healthcare,2024-07-09,Low,Onboarding,46.9,1
+TKT-00592,CUST-0302,Healthcare,2024-10-07,Low,Feature Request,54.7,0
+TKT-00593,CUST-0303,Enterprise,2024-07-22,Low,Technical,4.0,1
+TKT-00594,CUST-0304,Mid-Market,2024-08-21,Low,Bug,1.5,1
+TKT-00595,CUST-0304,Mid-Market,2024-08-03,Medium,Feature Request,4.6,1
+TKT-00596,CUST-0304,Mid-Market,2024-12-01,Low,Feature Request,4.5,1
+TKT-00597,CUST-0305,Healthcare,2024-10-22,Medium,Feature Request,7.6,1
+TKT-00598,CUST-0305,Healthcare,2024-08-12,Low,Feature Request,1.9,1
+TKT-00599,CUST-0305,Healthcare,2024-08-04,Critical,Bug,4.6,1
+TKT-00600,CUST-0305,Healthcare,2024-08-01,Medium,Billing,4.2,1
+TKT-00601,CUST-0307,Mid-Market,2024-07-02,Critical,Billing,3.6,1
+TKT-00602,CUST-0307,Mid-Market,2024-11-08,Low,Onboarding,3.6,1
+TKT-00603,CUST-0308,Healthcare,2024-04-02,Medium,Onboarding,1.8,1
+TKT-00604,CUST-0308,Healthcare,2024-09-20,Low,Technical,4.4,1
+TKT-00605,CUST-0308,Healthcare,2024-05-24,High,Onboarding,4.0,1
+TKT-00606,CUST-0308,Healthcare,2024-08-05,Low,Feature Request,6.7,1
+TKT-00607,CUST-0309,Startup,2024-03-22,Low,Billing,3.4,1
+TKT-00608,CUST-0309,Startup,2024-10-20,Medium,Feature Request,3.2,1
+TKT-00609,CUST-0309,Startup,2024-09-09,High,Bug,4.3,1
+TKT-00610,CUST-0310,Mid-Market,2024-08-03,High,Feature Request,42.3,1
+TKT-00611,CUST-0311,Healthcare,2024-11-11,Medium,Onboarding,2.0,1
+TKT-00612,CUST-0311,Healthcare,2024-08-10,High,Feature Request,5.7,1
+TKT-00613,CUST-0311,Healthcare,2024-10-26,Low,Bug,3.8,1
+TKT-00614,CUST-0313,Startup,2024-07-01,Critical,Onboarding,7.2,1
+TKT-00615,CUST-0313,Startup,2024-12-02,Low,Billing,2.2,1
+TKT-00616,CUST-0314,SMB,2024-10-30,Medium,Bug,1.9,1
+TKT-00617,CUST-0319,SMB,2024-06-20,Low,Bug,5.3,1
+TKT-00618,CUST-0319,SMB,2024-12-09,Low,Technical,5.0,1
+TKT-00619,CUST-0319,SMB,2024-12-08,Medium,Billing,7.3,1
+TKT-00620,CUST-0320,Enterprise,2024-11-21,Critical,Billing,2.3,1
+TKT-00621,CUST-0320,Enterprise,2024-08-15,High,Bug,2.7,1
+TKT-00622,CUST-0320,Enterprise,2024-09-27,Low,Onboarding,4.7,1
+TKT-00623,CUST-0322,SMB,2024-09-11,Medium,Billing,41.5,1
+TKT-00624,CUST-0322,SMB,2024-08-11,Medium,Bug,36.9,1
+TKT-00625,CUST-0322,SMB,2024-07-30,Low,Billing,17.5,1
+TKT-00626,CUST-0323,SMB,2024-11-08,Low,Onboarding,2.0,1
+TKT-00627,CUST-0324,Enterprise,2024-04-30,Low,Technical,7.7,1
+TKT-00628,CUST-0324,Enterprise,2024-04-15,Medium,Billing,3.3,1
+TKT-00629,CUST-0324,Enterprise,2024-04-14,Low,Technical,1.7,1
+TKT-00630,CUST-0325,Startup,2024-11-23,High,Billing,2.8,1
+TKT-00631,CUST-0326,Mid-Market,2024-06-28,Low,Bug,6.3,1
+TKT-00632,CUST-0326,Mid-Market,2024-08-14,Medium,Feature Request,6.3,1
+TKT-00633,CUST-0326,Mid-Market,2024-07-14,Low,Bug,3.2,1
+TKT-00634,CUST-0327,Healthcare,2024-09-16,Low,Technical,1.2,1
+TKT-00635,CUST-0327,Healthcare,2024-03-01,Low,Billing,7.7,1
+TKT-00636,CUST-0327,Healthcare,2024-06-26,High,Technical,5.6,1
+TKT-00637,CUST-0327,Healthcare,2024-07-25,Medium,Bug,4.1,1
+TKT-00638,CUST-0328,Mid-Market,2024-05-03,High,Bug,20.5,1
+TKT-00639,CUST-0329,SMB,2024-04-21,High,Feature Request,4.8,1
+TKT-00640,CUST-0329,SMB,2024-11-05,Medium,Feature Request,1.0,1
+TKT-00641,CUST-0330,Mid-Market,2024-07-17,Medium,Billing,2.2,1
+TKT-00642,CUST-0331,Startup,2024-10-18,Low,Feature Request,2.8,1
+TKT-00643,CUST-0332,SMB,2024-07-31,High,Bug,24.8,1
+TKT-00644,CUST-0332,SMB,2024-06-26,Low,Bug,56.4,0
+TKT-00645,CUST-0332,SMB,2024-03-09,Low,Billing,35.7,1
+TKT-00646,CUST-0333,Startup,2024-04-10,Medium,Feature Request,8.0,1
+TKT-00647,CUST-0333,Startup,2024-05-16,Medium,Onboarding,7.7,1
+TKT-00648,CUST-0333,Startup,2024-07-23,Medium,Feature Request,7.9,1
+TKT-00649,CUST-0334,Mid-Market,2024-07-21,Low,Onboarding,7.9,1
+TKT-00650,CUST-0335,SMB,2024-07-09,Medium,Billing,5.2,1
+TKT-00651,CUST-0335,SMB,2024-05-31,Medium,Feature Request,1.0,1
+TKT-00652,CUST-0336,Enterprise,2024-04-24,Critical,Feature Request,5.7,1
+TKT-00653,CUST-0338,SMB,2024-11-30,High,Feature Request,5.9,1
+TKT-00654,CUST-0338,SMB,2024-11-25,Low,Billing,7.1,1
+TKT-00655,CUST-0338,SMB,2024-11-25,Low,Feature Request,6.8,1
+TKT-00656,CUST-0339,SMB,2024-12-13,Low,Feature Request,7.8,1
+TKT-00657,CUST-0339,SMB,2024-12-03,Low,Billing,2.2,1
+TKT-00658,CUST-0340,SMB,2024-06-21,Medium,Feature Request,7.6,1
+TKT-00659,CUST-0340,SMB,2024-05-23,Low,Onboarding,1.1,1
+TKT-00660,CUST-0341,Healthcare,2024-07-31,Low,Onboarding,6.7,1
+TKT-00661,CUST-0341,Healthcare,2024-05-22,Low,Onboarding,4.5,1
+TKT-00662,CUST-0341,Healthcare,2024-02-17,Low,Bug,7.3,1
+TKT-00663,CUST-0341,Healthcare,2024-05-16,Low,Feature Request,7.9,1
+TKT-00664,CUST-0341,Healthcare,2024-03-26,High,Feature Request,5.0,1
+TKT-00665,CUST-0341,Healthcare,2024-04-26,Medium,Bug,5.6,1
+TKT-00666,CUST-0341,Healthcare,2024-12-03,Medium,Technical,1.5,1
+TKT-00667,CUST-0342,Enterprise,2024-02-21,Low,Technical,7.5,1
+TKT-00668,CUST-0343,Healthcare,2024-11-12,Medium,Billing,2.9,1
+TKT-00669,CUST-0343,Healthcare,2024-12-26,Medium,Bug,5.3,1
+TKT-00670,CUST-0343,Healthcare,2024-10-26,Low,Billing,4.0,1
+TKT-00671,CUST-0343,Healthcare,2024-09-22,Medium,Onboarding,8.0,1
+TKT-00672,CUST-0344,SMB,2024-07-21,Medium,Onboarding,4.3,1
+TKT-00673,CUST-0345,Healthcare,2024-10-09,High,Technical,7.2,1
+TKT-00674,CUST-0345,Healthcare,2024-06-11,Low,Feature Request,3.9,1
+TKT-00675,CUST-0345,Healthcare,2024-08-18,Low,Billing,2.4,1
+TKT-00676,CUST-0345,Healthcare,2024-10-23,High,Technical,7.9,1
+TKT-00677,CUST-0345,Healthcare,2024-11-22,Medium,Technical,1.5,1
+TKT-00678,CUST-0346,SMB,2024-06-10,Low,Billing,3.2,1
+TKT-00679,CUST-0346,SMB,2024-03-16,Medium,Bug,6.7,1
+TKT-00680,CUST-0346,SMB,2024-08-20,High,Feature Request,2.7,1
+TKT-00681,CUST-0348,SMB,2024-07-27,Critical,Onboarding,6.8,1
+TKT-00682,CUST-0349,Healthcare,2024-11-06,High,Bug,7.6,1
+TKT-00683,CUST-0349,Healthcare,2024-11-19,Medium,Feature Request,1.7,1
+TKT-00684,CUST-0349,Healthcare,2024-11-14,Low,Billing,7.8,1
+TKT-00685,CUST-0350,Startup,2024-08-11,Low,Billing,62.9,0
+TKT-00686,CUST-0350,Startup,2024-11-23,Low,Feature Request,67.1,0
+TKT-00687,CUST-0351,Mid-Market,2024-06-11,Low,Billing,5.4,1
+TKT-00688,CUST-0351,Mid-Market,2024-06-23,Medium,Onboarding,4.9,1
+TKT-00689,CUST-0352,SMB,2024-10-06,Medium,Feature Request,5.3,1
+TKT-00690,CUST-0352,SMB,2024-07-22,High,Bug,6.5,1
+TKT-00691,CUST-0352,SMB,2024-03-30,Medium,Feature Request,4.2,1
+TKT-00692,CUST-0357,Healthcare,2024-06-03,Low,Billing,68.3,0
+TKT-00693,CUST-0357,Healthcare,2024-12-01,Medium,Billing,47.3,1
+TKT-00694,CUST-0357,Healthcare,2024-06-04,Low,Bug,54.8,0
+TKT-00695,CUST-0357,Healthcare,2024-07-21,Critical,Bug,19.6,1
+TKT-00696,CUST-0357,Healthcare,2024-08-22,Low,Bug,40.9,1
+TKT-00697,CUST-0358,SMB,2024-09-29,Low,Billing,2.0,1
+TKT-00698,CUST-0358,SMB,2024-03-16,Low,Bug,5.1,1
+TKT-00699,CUST-0358,SMB,2024-08-16,Low,Technical,7.2,1
+TKT-00700,CUST-0359,Healthcare,2024-09-27,Medium,Onboarding,5.2,1
+TKT-00701,CUST-0359,Healthcare,2024-11-23,Critical,Technical,4.6,1
+TKT-00702,CUST-0359,Healthcare,2024-09-04,Low,Bug,6.7,1
+TKT-00703,CUST-0359,Healthcare,2024-09-03,Medium,Technical,2.4,1
+TKT-00704,CUST-0359,Healthcare,2024-10-11,High,Feature Request,3.4,1
+TKT-00705,CUST-0359,Healthcare,2024-12-18,Medium,Bug,3.3,1
+TKT-00706,CUST-0361,Healthcare,2024-11-23,Critical,Feature Request,5.3,1
+TKT-00707,CUST-0361,Healthcare,2024-09-24,Low,Billing,4.2,1
+TKT-00708,CUST-0361,Healthcare,2024-11-05,Low,Technical,1.0,1
+TKT-00709,CUST-0361,Healthcare,2024-12-26,Low,Technical,5.4,1
+TKT-00710,CUST-0362,Mid-Market,2024-11-01,Medium,Onboarding,7.7,1
+TKT-00711,CUST-0363,SMB,2024-12-16,Medium,Technical,2.4,1
+TKT-00712,CUST-0363,SMB,2024-12-18,Critical,Billing,3.5,1
+TKT-00713,CUST-0363,SMB,2024-10-19,Low,Onboarding,1.8,1
+TKT-00714,CUST-0364,Mid-Market,2024-10-18,Low,Onboarding,5.1,1
+TKT-00715,CUST-0364,Mid-Market,2024-03-29,Critical,Onboarding,2.4,1
+TKT-00716,CUST-0364,Mid-Market,2024-06-04,Low,Technical,2.8,1
+TKT-00717,CUST-0365,SMB,2024-11-07,High,Technical,2.7,1
+TKT-00718,CUST-0366,SMB,2024-07-01,Low,Billing,2.8,1
+TKT-00719,CUST-0366,SMB,2024-07-01,High,Billing,2.0,1
+TKT-00720,CUST-0366,SMB,2024-09-20,Critical,Technical,3.1,1
+TKT-00721,CUST-0367,Healthcare,2024-11-01,High,Bug,5.6,1
+TKT-00722,CUST-0367,Healthcare,2024-12-26,Critical,Billing,7.2,1
+TKT-00723,CUST-0367,Healthcare,2024-09-30,Low,Technical,7.5,1
+TKT-00724,CUST-0367,Healthcare,2024-10-09,Medium,Onboarding,5.9,1
+TKT-00725,CUST-0367,Healthcare,2024-11-30,Medium,Billing,5.5,1
+TKT-00726,CUST-0367,Healthcare,2024-12-21,Medium,Bug,2.3,1
+TKT-00727,CUST-0368,SMB,2024-09-25,High,Billing,3.3,1
+TKT-00728,CUST-0370,SMB,2024-11-12,High,Bug,7.1,1
+TKT-00729,CUST-0371,Mid-Market,2024-12-31,Medium,Billing,4.4,1
+TKT-00730,CUST-0371,Mid-Market,2024-12-08,Medium,Billing,5.6,1
+TKT-00731,CUST-0372,Enterprise,2024-07-10,Medium,Bug,6.3,1
+TKT-00732,CUST-0372,Enterprise,2024-09-01,Medium,Onboarding,4.2,1
+TKT-00733,CUST-0373,Startup,2024-11-08,Low,Feature Request,5.9,1
+TKT-00734,CUST-0375,SMB,2024-09-23,Low,Bug,3.8,1
+TKT-00735,CUST-0375,SMB,2024-12-22,Low,Technical,2.5,1
+TKT-00736,CUST-0375,SMB,2024-09-12,High,Onboarding,3.8,1
+TKT-00737,CUST-0376,Startup,2024-10-09,High,Onboarding,46.3,1
+TKT-00738,CUST-0376,Startup,2024-07-14,Medium,Billing,20.1,1
+TKT-00739,CUST-0376,Startup,2024-08-04,Medium,Bug,33.1,1
+TKT-00740,CUST-0377,Startup,2024-08-29,Medium,Feature Request,5.3,1
+TKT-00741,CUST-0378,Healthcare,2024-08-14,Medium,Feature Request,36.5,1
+TKT-00742,CUST-0378,Healthcare,2024-07-11,Low,Feature Request,13.5,1
+TKT-00743,CUST-0378,Healthcare,2024-06-19,Low,Billing,16.6,1
+TKT-00744,CUST-0378,Healthcare,2024-07-05,High,Billing,42.8,1
+TKT-00745,CUST-0378,Healthcare,2024-11-08,Low,Billing,25.7,1
+TKT-00746,CUST-0379,SMB,2024-08-19,Low,Onboarding,4.8,1
+TKT-00747,CUST-0379,SMB,2024-09-20,Medium,Onboarding,2.8,1
+TKT-00748,CUST-0380,Enterprise,2024-07-03,Medium,Bug,8.0,1
+TKT-00749,CUST-0381,Mid-Market,2024-05-29,Low,Onboarding,3.1,1
+TKT-00750,CUST-0381,Mid-Market,2024-08-10,Critical,Billing,6.8,1
+TKT-00751,CUST-0381,Mid-Market,2024-09-14,Medium,Technical,7.9,1
+TKT-00752,CUST-0382,Startup,2024-12-08,Low,Technical,2.6,1
+TKT-00753,CUST-0382,Startup,2024-08-30,Low,Bug,5.1,1
+TKT-00754,CUST-0383,Mid-Market,2024-09-23,Medium,Billing,39.7,1
+TKT-00755,CUST-0384,Healthcare,2024-09-25,High,Feature Request,4.0,1
+TKT-00756,CUST-0384,Healthcare,2024-08-29,Medium,Billing,7.0,1
+TKT-00757,CUST-0384,Healthcare,2024-10-10,Low,Onboarding,7.1,1
+TKT-00758,CUST-0384,Healthcare,2024-07-09,Medium,Onboarding,5.6,1
+TKT-00759,CUST-0385,Mid-Market,2024-10-06,Low,Feature Request,37.5,1
+TKT-00760,CUST-0385,Mid-Market,2024-11-26,Low,Bug,47.2,1
+TKT-00761,CUST-0387,SMB,2024-12-29,Low,Onboarding,2.0,1
+TKT-00762,CUST-0388,Healthcare,2024-11-05,Critical,Feature Request,2.4,1
+TKT-00763,CUST-0388,Healthcare,2024-05-21,Medium,Billing,2.3,1
+TKT-00764,CUST-0388,Healthcare,2024-10-04,Medium,Onboarding,4.2,1
+TKT-00765,CUST-0388,Healthcare,2024-06-05,Low,Technical,5.7,1
+TKT-00766,CUST-0388,Healthcare,2024-05-05,High,Billing,5.2,1
+TKT-00767,CUST-0388,Healthcare,2024-07-23,Low,Feature Request,7.4,1
+TKT-00768,CUST-0389,Startup,2024-05-29,Low,Bug,29.5,1
+TKT-00769,CUST-0389,Startup,2024-02-09,Medium,Billing,34.1,1
+TKT-00770,CUST-0389,Startup,2024-04-01,Low,Feature Request,66.6,0
+TKT-00771,CUST-0394,SMB,2024-04-26,Critical,Feature Request,1.9,1
+TKT-00772,CUST-0397,SMB,2024-11-13,Medium,Technical,3.7,1
+TKT-00773,CUST-0397,SMB,2024-05-19,High,Feature Request,3.2,1
+TKT-00774,CUST-0398,Startup,2024-05-04,Medium,Bug,7.6,1
+TKT-00775,CUST-0398,Startup,2024-05-26,Medium,Onboarding,5.8,1
+TKT-00776,CUST-0399,Startup,2024-06-29,Low,Billing,2.0,1
+TKT-00777,CUST-0401,Mid-Market,2024-11-27,Low,Bug,60.5,0
+TKT-00778,CUST-0402,SMB,2024-09-27,Critical,Feature Request,7.2,1
+TKT-00779,CUST-0402,SMB,2024-10-31,Medium,Onboarding,6.2,1
+TKT-00780,CUST-0402,SMB,2024-12-17,High,Onboarding,4.2,1
+TKT-00781,CUST-0403,Mid-Market,2024-10-11,Medium,Technical,60.6,0
+TKT-00782,CUST-0403,Mid-Market,2024-10-17,Low,Feature Request,66.0,0
+TKT-00783,CUST-0403,Mid-Market,2024-10-28,Low,Bug,51.5,0
+TKT-00784,CUST-0404,Mid-Market,2024-06-16,Low,Technical,7.6,1
+TKT-00785,CUST-0405,Mid-Market,2024-10-06,Low,Onboarding,5.4,1
+TKT-00786,CUST-0405,Mid-Market,2024-12-10,Critical,Technical,5.9,1
+TKT-00787,CUST-0405,Mid-Market,2024-11-18,Medium,Billing,6.3,1
+TKT-00788,CUST-0406,Startup,2024-09-21,Low,Onboarding,18.3,1
+TKT-00789,CUST-0406,Startup,2024-10-12,Medium,Bug,27.2,1
+TKT-00790,CUST-0407,SMB,2024-04-16,Medium,Feature Request,1.5,1
+TKT-00791,CUST-0409,SMB,2024-10-08,Low,Technical,3.8,1
+TKT-00792,CUST-0409,SMB,2024-10-12,Low,Technical,2.8,1
+TKT-00793,CUST-0409,SMB,2024-09-24,Medium,Feature Request,4.2,1
+TKT-00794,CUST-0410,Startup,2024-05-31,Low,Feature Request,5.6,1
+TKT-00795,CUST-0411,Mid-Market,2024-05-29,Medium,Technical,3.0,1
+TKT-00796,CUST-0411,Mid-Market,2024-06-06,High,Technical,5.2,1
+TKT-00797,CUST-0412,Healthcare,2024-07-11,Low,Technical,56.5,0
+TKT-00798,CUST-0412,Healthcare,2024-05-16,Medium,Onboarding,12.7,1
+TKT-00799,CUST-0412,Healthcare,2024-06-05,Medium,Billing,22.7,1
+TKT-00800,CUST-0412,Healthcare,2024-12-11,Medium,Billing,25.0,1
+TKT-00801,CUST-0413,Mid-Market,2024-11-21,Medium,Billing,6.0,1
+TKT-00802,CUST-0413,Mid-Market,2024-09-14,Medium,Bug,4.1,1
+TKT-00803,CUST-0413,Mid-Market,2024-03-01,Low,Technical,3.6,1
+TKT-00804,CUST-0415,Enterprise,2024-05-16,Low,Billing,2.7,1
+TKT-00805,CUST-0415,Enterprise,2024-01-18,Medium,Onboarding,7.9,1
+TKT-00806,CUST-0416,SMB,2024-06-20,Medium,Billing,1.4,1
+TKT-00807,CUST-0417,SMB,2024-04-30,Medium,Bug,1.3,1
+TKT-00808,CUST-0417,SMB,2024-03-31,High,Technical,3.3,1
+TKT-00809,CUST-0417,SMB,2024-12-20,Low,Feature Request,4.8,1
+TKT-00810,CUST-0419,SMB,2024-09-07,Low,Onboarding,1.7,1
+TKT-00811,CUST-0419,SMB,2024-09-21,Low,Billing,5.6,1
+TKT-00812,CUST-0420,SMB,2024-09-06,Low,Onboarding,2.5,1
+TKT-00813,CUST-0420,SMB,2024-08-26,Low,Feature Request,7.2,1
+TKT-00814,CUST-0422,Mid-Market,2024-10-22,High,Billing,4.5,1
+TKT-00815,CUST-0422,Mid-Market,2024-12-21,High,Bug,7.5,1
+TKT-00816,CUST-0423,SMB,2024-07-10,Low,Onboarding,1.7,1
+TKT-00817,CUST-0423,SMB,2024-10-29,Medium,Technical,7.8,1
+TKT-00818,CUST-0423,SMB,2024-10-01,Low,Onboarding,6.3,1
+TKT-00819,CUST-0425,Healthcare,2024-09-29,Low,Bug,13.1,1
+TKT-00820,CUST-0425,Healthcare,2024-09-12,Low,Technical,50.4,0
+TKT-00821,CUST-0425,Healthcare,2024-10-10,Medium,Technical,71.3,0
+TKT-00822,CUST-0426,SMB,2024-07-20,Medium,Onboarding,7.3,1
+TKT-00823,CUST-0426,SMB,2024-09-13,Medium,Bug,6.3,1
+TKT-00824,CUST-0426,SMB,2024-08-04,Low,Onboarding,3.6,1
+TKT-00825,CUST-0427,SMB,2024-10-05,Low,Billing,2.4,1
+TKT-00826,CUST-0430,Healthcare,2024-06-24,Critical,Feature Request,5.2,1
+TKT-00827,CUST-0430,Healthcare,2024-10-31,High,Onboarding,1.9,1
+TKT-00828,CUST-0430,Healthcare,2024-10-06,High,Feature Request,1.3,1
+TKT-00829,CUST-0430,Healthcare,2024-10-07,High,Technical,6.3,1
+TKT-00830,CUST-0430,Healthcare,2024-11-27,Medium,Technical,3.4,1
+TKT-00831,CUST-0430,Healthcare,2024-09-10,Low,Technical,7.4,1
+TKT-00832,CUST-0431,Enterprise,2024-12-15,Medium,Feature Request,2.6,1
+TKT-00833,CUST-0431,Enterprise,2024-11-03,Low,Billing,4.1,1
+TKT-00834,CUST-0432,Healthcare,2024-05-20,High,Technical,1.5,1
+TKT-00835,CUST-0432,Healthcare,2024-05-17,Medium,Technical,2.0,1
+TKT-00836,CUST-0432,Healthcare,2024-06-05,Low,Technical,5.1,1
+TKT-00837,CUST-0432,Healthcare,2024-07-03,Medium,Feature Request,4.0,1
+TKT-00838,CUST-0432,Healthcare,2024-07-22,Low,Feature Request,2.4,1
+TKT-00839,CUST-0432,Healthcare,2024-06-18,Medium,Bug,3.1,1
+TKT-00840,CUST-0432,Healthcare,2024-08-26,Critical,Feature Request,2.4,1
+TKT-00841,CUST-0432,Healthcare,2024-05-24,Critical,Feature Request,3.5,1
+TKT-00842,CUST-0433,Enterprise,2024-06-08,Medium,Bug,4.0,1
+TKT-00843,CUST-0433,Enterprise,2024-11-01,Medium,Feature Request,2.1,1
+TKT-00844,CUST-0433,Enterprise,2024-05-02,High,Billing,4.0,1
+TKT-00845,CUST-0434,SMB,2024-09-08,Medium,Technical,21.2,1
+TKT-00846,CUST-0434,SMB,2024-08-28,Low,Onboarding,30.4,1
+TKT-00847,CUST-0434,SMB,2024-09-28,Medium,Onboarding,40.9,1
+TKT-00848,CUST-0435,Mid-Market,2024-06-15,Medium,Technical,2.4,1
+TKT-00849,CUST-0437,Enterprise,2024-01-24,Low,Onboarding,4.5,1
+TKT-00850,CUST-0437,Enterprise,2024-09-29,Medium,Feature Request,3.9,1
+TKT-00851,CUST-0438,SMB,2024-12-22,Low,Bug,4.4,1
+TKT-00852,CUST-0439,Enterprise,2024-08-07,Medium,Billing,1.3,1
+TKT-00853,CUST-0440,SMB,2024-09-05,Critical,Feature Request,2.1,1
+TKT-00854,CUST-0440,SMB,2024-06-30,High,Onboarding,6.3,1
+TKT-00855,CUST-0441,Mid-Market,2024-12-13,Medium,Onboarding,5.4,1
+TKT-00856,CUST-0441,Mid-Market,2024-08-19,Medium,Technical,7.5,1
+TKT-00857,CUST-0442,SMB,2024-06-24,Medium,Onboarding,7.5,1
+TKT-00858,CUST-0443,Startup,2024-11-23,Medium,Technical,1.2,1
+TKT-00859,CUST-0443,Startup,2024-05-17,Medium,Technical,7.6,1
+TKT-00860,CUST-0443,Startup,2024-05-14,Low,Technical,5.0,1
+TKT-00861,CUST-0444,Healthcare,2024-01-31,Low,Feature Request,17.5,1
+TKT-00862,CUST-0444,Healthcare,2024-08-15,Medium,Billing,70.4,0
+TKT-00863,CUST-0444,Healthcare,2024-10-16,Critical,Technical,64.6,0
+TKT-00864,CUST-0445,Healthcare,2024-12-09,Medium,Bug,53.5,0
+TKT-00865,CUST-0445,Healthcare,2024-09-24,Medium,Onboarding,35.0,1
+TKT-00866,CUST-0445,Healthcare,2024-11-14,Medium,Billing,64.6,0
+TKT-00867,CUST-0445,Healthcare,2024-06-07,Medium,Onboarding,58.6,0
+TKT-00868,CUST-0446,SMB,2024-07-21,Low,Feature Request,2.5,1
+TKT-00869,CUST-0446,SMB,2024-12-10,Low,Feature Request,7.9,1
+TKT-00870,CUST-0446,SMB,2024-06-15,Low,Feature Request,6.4,1
+TKT-00871,CUST-0447,Enterprise,2024-11-02,Medium,Feature Request,3.0,1
+TKT-00872,CUST-0447,Enterprise,2024-08-03,Low,Technical,2.3,1
+TKT-00873,CUST-0447,Enterprise,2024-08-10,Medium,Billing,4.5,1
+TKT-00874,CUST-0448,Mid-Market,2024-11-13,Medium,Technical,2.5,1
+TKT-00875,CUST-0448,Mid-Market,2024-08-05,Medium,Technical,6.7,1
+TKT-00876,CUST-0448,Mid-Market,2024-09-25,Critical,Feature Request,7.1,1
+TKT-00877,CUST-0451,SMB,2024-11-01,Critical,Technical,1.8,1
+TKT-00878,CUST-0452,Healthcare,2024-09-10,Low,Onboarding,3.6,1
+TKT-00879,CUST-0452,Healthcare,2024-09-08,Low,Feature Request,5.1,1
+TKT-00880,CUST-0452,Healthcare,2024-11-01,Medium,Billing,1.7,1
+TKT-00881,CUST-0452,Healthcare,2024-10-04,High,Bug,1.1,1
+TKT-00882,CUST-0452,Healthcare,2024-12-10,Critical,Bug,1.7,1
+TKT-00883,CUST-0452,Healthcare,2024-12-10,Low,Onboarding,5.2,1
+TKT-00884,CUST-0452,Healthcare,2024-12-28,Medium,Bug,6.3,1
+TKT-00885,CUST-0453,SMB,2024-11-27,Low,Onboarding,5.8,1
+TKT-00886,CUST-0453,SMB,2024-10-29,High,Feature Request,7.6,1
+TKT-00887,CUST-0454,SMB,2024-09-08,Medium,Onboarding,70.5,0
+TKT-00888,CUST-0455,SMB,2024-02-25,Low,Feature Request,7.1,1
+TKT-00889,CUST-0455,SMB,2024-03-16,Low,Bug,1.9,1
+TKT-00890,CUST-0456,Healthcare,2024-07-17,Critical,Technical,57.1,0
+TKT-00891,CUST-0456,Healthcare,2024-08-09,Medium,Feature Request,53.2,0
+TKT-00892,CUST-0456,Healthcare,2024-09-15,Medium,Onboarding,23.3,1
+TKT-00893,CUST-0456,Healthcare,2024-05-11,Medium,Onboarding,64.4,0
+TKT-00894,CUST-0456,Healthcare,2024-10-27,Medium,Feature Request,48.4,0
+TKT-00895,CUST-0456,Healthcare,2024-11-12,Medium,Feature Request,16.9,1
+TKT-00896,CUST-0457,SMB,2024-09-17,Critical,Billing,7.0,1
+TKT-00897,CUST-0457,SMB,2024-11-22,Low,Technical,5.3,1
+TKT-00898,CUST-0458,Startup,2024-12-27,Medium,Bug,5.0,1
+TKT-00899,CUST-0458,Startup,2024-05-27,Low,Onboarding,6.6,1
+TKT-00900,CUST-0458,Startup,2024-12-18,Medium,Feature Request,4.8,1
+TKT-00901,CUST-0461,Healthcare,2024-09-18,High,Feature Request,69.3,0
+TKT-00902,CUST-0461,Healthcare,2024-11-20,Medium,Technical,26.6,1
+TKT-00903,CUST-0461,Healthcare,2024-12-02,Critical,Billing,54.0,0
+TKT-00904,CUST-0461,Healthcare,2024-10-22,Critical,Onboarding,13.8,1
+TKT-00905,CUST-0461,Healthcare,2024-12-21,Low,Onboarding,28.8,1
+TKT-00906,CUST-0462,Healthcare,2024-12-10,Critical,Technical,5.7,1
+TKT-00907,CUST-0462,Healthcare,2024-12-18,Low,Technical,5.8,1
+TKT-00908,CUST-0462,Healthcare,2024-05-14,Medium,Feature Request,3.6,1
+TKT-00909,CUST-0463,SMB,2024-12-15,Medium,Feature Request,4.9,1
+TKT-00910,CUST-0463,SMB,2024-10-22,Low,Billing,1.8,1
+TKT-00911,CUST-0468,Healthcare,2024-09-21,Low,Technical,56.4,0
+TKT-00912,CUST-0468,Healthcare,2024-12-11,Critical,Technical,46.4,1
+TKT-00913,CUST-0468,Healthcare,2024-12-25,Low,Billing,34.8,1
+TKT-00914,CUST-0468,Healthcare,2024-10-16,Low,Feature Request,44.1,1
+TKT-00915,CUST-0468,Healthcare,2024-10-31,Low,Technical,33.9,1
+TKT-00916,CUST-0468,Healthcare,2024-11-12,Medium,Billing,47.4,1
+TKT-00917,CUST-0469,Startup,2024-11-27,Low,Onboarding,7.0,1
+TKT-00918,CUST-0469,Startup,2024-09-24,High,Technical,3.1,1
+TKT-00919,CUST-0470,SMB,2024-11-09,Medium,Onboarding,2.0,1
+TKT-00920,CUST-0471,Enterprise,2024-06-01,Medium,Billing,6.9,1
+TKT-00921,CUST-0471,Enterprise,2024-08-29,Low,Billing,7.9,1
+TKT-00922,CUST-0472,Mid-Market,2024-08-19,Critical,Feature Request,5.9,1
+TKT-00923,CUST-0474,Startup,2024-12-20,High,Feature Request,4.5,1
+TKT-00924,CUST-0474,Startup,2024-03-02,Critical,Technical,3.3,1
+TKT-00925,CUST-0474,Startup,2024-05-26,Medium,Technical,1.4,1
+TKT-00926,CUST-0475,Healthcare,2024-10-06,Medium,Technical,29.9,1
+TKT-00927,CUST-0475,Healthcare,2024-06-09,Medium,Feature Request,32.2,1
+TKT-00928,CUST-0476,Mid-Market,2024-10-28,High,Bug,3.7,1
+TKT-00929,CUST-0476,Mid-Market,2024-10-11,Low,Bug,7.5,1
+TKT-00930,CUST-0477,SMB,2024-09-29,Low,Bug,3.3,1
+TKT-00931,CUST-0477,SMB,2024-07-04,High,Feature Request,6.0,1
+TKT-00932,CUST-0477,SMB,2024-12-05,Low,Feature Request,2.0,1
+TKT-00933,CUST-0478,Mid-Market,2024-10-21,High,Technical,2.5,1
+TKT-00934,CUST-0478,Mid-Market,2024-08-10,Low,Billing,7.0,1
+TKT-00935,CUST-0479,SMB,2024-09-25,Low,Technical,7.9,1
+TKT-00936,CUST-0479,SMB,2024-09-02,Low,Technical,7.8,1
+TKT-00937,CUST-0479,SMB,2024-09-01,Low,Onboarding,4.6,1
+TKT-00938,CUST-0480,Enterprise,2024-11-02,Medium,Feature Request,2.0,1
+TKT-00939,CUST-0481,Mid-Market,2024-10-19,Low,Feature Request,2.7,1
+TKT-00940,CUST-0484,Mid-Market,2024-09-05,Medium,Feature Request,7.7,1
+TKT-00941,CUST-0484,Mid-Market,2024-12-14,Critical,Billing,5.7,1
+TKT-00942,CUST-0484,Mid-Market,2024-10-16,High,Onboarding,5.6,1
+TKT-00943,CUST-0485,Startup,2024-11-24,Medium,Billing,3.6,1
+TKT-00944,CUST-0485,Startup,2024-03-05,Low,Bug,4.4,1
+TKT-00945,CUST-0485,Startup,2024-04-30,Low,Bug,5.0,1
+TKT-00946,CUST-0486,SMB,2024-11-19,Low,Bug,56.7,0
+TKT-00947,CUST-0486,SMB,2024-06-19,Low,Feature Request,72.0,0
+TKT-00948,CUST-0486,SMB,2024-08-18,Medium,Billing,18.0,1
+TKT-00949,CUST-0488,Mid-Market,2024-12-03,Critical,Technical,6.6,1
+TKT-00950,CUST-0488,Mid-Market,2024-10-24,High,Bug,1.1,1
+TKT-00951,CUST-0488,Mid-Market,2024-12-16,Medium,Feature Request,6.7,1
+TKT-00952,CUST-0489,SMB,2024-06-01,Medium,Billing,5.1,1
+TKT-00953,CUST-0489,SMB,2024-11-24,High,Billing,7.8,1
+TKT-00954,CUST-0490,Enterprise,2024-04-14,High,Billing,5.9,1
+TKT-00955,CUST-0491,Healthcare,2024-09-18,Medium,Billing,30.9,1
+TKT-00956,CUST-0491,Healthcare,2024-05-31,Medium,Billing,51.2,0
+TKT-00957,CUST-0491,Healthcare,2024-09-19,Low,Billing,57.2,0
+TKT-00958,CUST-0493,SMB,2024-06-12,Medium,Bug,3.5,1
+TKT-00959,CUST-0495,Mid-Market,2024-08-28,Medium,Billing,7.6,1
+TKT-00960,CUST-0495,Mid-Market,2024-09-17,Low,Bug,7.6,1
+TKT-00961,CUST-0495,Mid-Market,2024-09-29,Medium,Bug,4.1,1
+TKT-00962,CUST-0497,Startup,2024-11-01,Medium,Onboarding,4.7,1
+TKT-00963,CUST-0497,Startup,2024-12-01,Medium,Billing,2.5,1
+TKT-00964,CUST-0498,Mid-Market,2024-12-20,High,Technical,2.7,1
+TKT-00965,CUST-0498,Mid-Market,2024-03-28,Low,Technical,6.8,1
+TKT-00966,CUST-0499,Mid-Market,2024-09-27,Medium,Onboarding,5.1,1
+TKT-00967,CUST-0500,Startup,2024-06-17,Medium,Bug,4.0,1
+TKT-00968,CUST-0500,Startup,2024-08-21,Low,Technical,5.5,1
