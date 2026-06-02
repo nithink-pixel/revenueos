@@ -364,7 +364,51 @@ with tab3:
         )
         fig6.update_traces(textposition="top center")
         st.plotly_chart(fig6, use_container_width=True)
+# ── ML CHURN PREDICTION ──────────────────────────────────────────────────────
+st.divider()
+st.subheader("🤖 ML Churn Prediction (XGBoost + SHAP)")
 
+if st.button("Run Churn Prediction Model", type="primary"):
+    with st.spinner("Training XGBoost model and computing SHAP values..."):
+        from modules import churn_prediction
+        ml_result = churn_prediction.run(customers_path)
+        st.session_state["ml"] = ml_result
+
+if "ml" in st.session_state:
+    ml = st.session_state["ml"]
+    s  = ml["summary"]
+
+    col1, col2, col3, col4 = st.columns(4)
+    col1.metric("AUC Score",       s["auc_score"], "Model accuracy")
+    col2.metric("F1 Score",        s["f1_score"])
+    col3.metric("High Risk Customers", s["high_risk_count"])
+    col4.metric("ARR at Risk",     f"${s['arr_at_risk']:,.0f}")
+
+    tab_a, tab_b = st.tabs(["At-Risk Customers", "SHAP Feature Importance"])
+
+    with tab_a:
+        st.markdown("**Top 20 customers most likely to churn next — ranked by probability**")
+        st.dataframe(
+            ml["at_risk"].style.background_gradient(
+                subset=["churn_probability"], cmap="Reds"
+            ),
+            use_container_width=True,
+        )
+
+    with tab_b:
+        fig_shap = px.bar(
+            ml["shap_importance"].head(10),
+            x     = "importance",
+            y     = "feature_label",
+            orientation = "h",
+            title = "Top Churn Drivers (SHAP Feature Importance)",
+            labels = {"importance": "Mean |SHAP Value|", "feature_label": ""},
+            color  = "importance",
+            color_continuous_scale = "Reds",
+        )
+        fig_shap.update_layout(showlegend=False, coloraxis_showscale=False)
+        st.plotly_chart(fig_shap, use_container_width=True)
+        st.caption(f"Top driver: **{s['top_churn_driver']}** — {s['second_driver']} is second most important.")
 st.divider()
 
 # ── AI BRIEF ─────────────────────────────────────────────────────────────────
