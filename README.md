@@ -1,5 +1,7 @@
 # 💰 RevenueOS — Automated Revenue Leak Detection
 
+🔗 **[Live Demo → nithin-revenueos.streamlit.app](https://nithin-revenueos.streamlit.app)**
+
 > **Find exactly where your business is bleeding money — ranked by dollar impact — with an AI-generated executive action brief.**
 
 Most companies have dashboards. Nobody has a system that *proactively finds* the problems they didn't know to look for and tells leadership what to do about them.
