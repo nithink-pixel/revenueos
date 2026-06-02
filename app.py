@@ -388,12 +388,7 @@ if "ml" in st.session_state:
 
     with tab_a:
         st.markdown("**Top 20 customers most likely to churn next — ranked by probability**")
-        st.dataframe(
-            ml["at_risk"].style.background_gradient(
-                subset=["churn_probability"], cmap="Reds"
-            ),
-            use_container_width=True,
-        )
+        st.dataframe(ml["at_risk"], use_container_width=True)
 
     with tab_b:
         fig_shap = px.bar(
